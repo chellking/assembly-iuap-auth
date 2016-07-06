@@ -1,4 +1,4 @@
-# 使用说明 #
+# 使用说明
 
 ## 组件包说明 ##
 iuap-auth组件利用shiro的上述登录认证的步骤，构造了token并进行了认证动作，并提供SessionManager管理类，将传统方式的一些Session信息存储在了分布式缓存Redis中，方便后续的访问。
