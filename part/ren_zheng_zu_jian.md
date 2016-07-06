@@ -6,3 +6,22 @@ Apache Shiro是Java的一个轻量级的安全框架，简单易用。Shiro可�
 
 iUAP auth组件利用spring和shiro进行集成，使用token的方式对用户进行认证，token的生成参数可以由用户定制。同时组件采用无状态的方式，将shiro和web应用组装，配合分布式缓存redis的使用对session进行管理，实现了web服务的无状态，便于服务的水平扩展。
 
+
+## 本版更新
+
+
+1. 1. 提供对指定资源的认证拦截
+
+2. 支持PC和移动端的不同的token生成方式
+
+3. 支持分布式缓存方式存储session信息
+
+4. 支持session信息的无状态方案
+
+5. 支持cookie和header的方式传递用户信息
+
+6. 支持互斥登录配置
+
+
+
+
