@@ -3,13 +3,13 @@
 ## 依赖环境 ##
 
 组件采用Maven进行编译和打包发布，依赖Apache的shiro框架,引入了shiro.shiro-spring的1.2.3版本和iUAP平台的一些基础组件如iuap-log和iuap-cache，其对外提供的依赖方式如下：
-
+```
 	<dependency>
 	  <groupId>com.yonyou.iuap</groupId>
 	  <artifactId>iuap-auth</artifactId>
 	  <version>2.0.1-SNAPSHOT</version>
 	</dependency>
-
+```
 ## 功能结构 ##
 
 <img src="/images/shiro_auth.jpg"/>
