@@ -5,4 +5,5 @@
    * [概述](part/README.md)
    * [总体设计](part/zong_ti_she_ji.md)
    * [使用说明](part/shi_yong_shuo_ming.md)
+*[代码管理](codemanage/README.md)
 
