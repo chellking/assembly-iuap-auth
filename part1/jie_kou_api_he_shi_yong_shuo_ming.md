@@ -1,8 +1,8 @@
 # 接口API和使用说明
 
 
-##1，客户端使用
-####1.1,公有部署的配置，首先引入jar包
+## 1，客户端使用
+#### 1.1,公有部署的配置，首先引入jar包
 
 1.1.1，公有部署需要的Jar包：
 
@@ -29,7 +29,7 @@
 
 1.1.4,调用工具类：在要记录日志的地方，调用com.iuap.log.security.utils.SecurityLogUtil.saveLog(SecurityLog)方法来记录日志
 
-###1.2，私有部署的配置，首先引入jar包
+### 1.2，私有部署的配置，首先引入jar包
 1.2.1，私有部署需要的jar包
 <pre>
   &lt;dependency>
@@ -51,8 +51,8 @@
 1.2.3,调用工具类：在要记录日志的地方，调用com.iuap.log.security.utils.SecurityLogUtil.saveLog(SecurityLog)方法来记录日志
 
 
-##2，服务端部署
-###2.1，说明：
+## 2，服务端部署
+### 2.1，说明：
 
 （1），服务端的war包是相同的，只是对于共有的和私有的，有些不同的配置。
 
@@ -66,7 +66,7 @@
 &lt;/dependency>
 </pre>
 
-###2.2，配置，不管是公有的还是私有部署，都有以下配置：
+### 2.2，配置，不管是公有的还是私有部署，都有以下配置：
 2.2.1，数据库信息配置（securitylog-application.properties）：
 
     #下面几项必须配置
