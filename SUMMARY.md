@@ -9,5 +9,5 @@
 * [安全日志](part1/README.md)
    * [概述](part1/gai_shu.md)
    * [技术方案](part1/ji_zhu_fang_an.md)
-   * [接口API和使用说明]()
+   * [接口API和使用说明](part1/jie_kou_api_he_shi_yong_shuo_ming.md)
 
