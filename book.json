@@ -20,7 +20,7 @@
      ],
    "pluginsConfig" : {
     "edit-link" : {
-        "base" : "https://github.com/chellking/iuap-quickstart/edit/master/",
+        "base" : "https://github.com/chellking/assembly-iuap-auth/edit/master/",
         "label" : "Edit This Page"
      }
     }
